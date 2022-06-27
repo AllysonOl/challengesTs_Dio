@@ -81,7 +81,7 @@ if (botaoAtualizar) {
         somarAoSaldo(Number(soma.value)); 
     });
 }
-botaoLimpar.addEventListener('click', () => { // Percebam que aqui o typescript não acusou o botao de ser nulo e não precisei do if. Caso queiram fazer o teste, retirem a exclamação.
+botaoLimpar.addEventListener('click', () => { 
     limparSaldo();
 });
 
